@@ -3,255 +3,45 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" />
-    <link rel="stylesheet" href="Fonts/css/all.css">
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" /> -->
+    <!-- <link rel="stylesheet" href="Fonts/css/all.css"> -->
     <title>Football Website</title>
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/themes/splide-sea-green.min.css">
+    <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/css/themes/splide-sea-green.min.css"> -->
     <link rel="stylesheet" href="css/styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css" integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
 </head>
 <body>
-     <!-- Navigation -->
-     <nav>
-            <img class="weblogo" src="/Images/1250546.png" alt="">
-            <ul>
-                <li><a href="#home">Home</a></li>
-                <li><a href="#about">About</a></li>
-                <li><a href="#teams">Teams</a></li>
-                <li><a href="#fixtures">Fixtures</a></li>
-                <li><a href="#contact">Contact</a></li>
-            </ul>
-     </nav>
-
-     <!-- Home Section -->
-    <section id="home">
-         <h1>Welcome to <br> <span class="green">Our Football Club</span></h1>
-         <!-- Slider can be added here -->
- 
-         <!-- <div class="slide-container">
-            <div class="control-body">
-                <div id="controls">
-                    <button id="left"><i class="fas fa-angle-left"></i></button>
-                    <button id="right"><i class="fas fa-angle-right"></i></button>
+    <!-- navbar -->
+    <header>
+        <a href="">Logo</a>
+        <nav>
+            <a href="#home">Home</a>
+            <a href="#about">About</a>
+            <a href="#contact">Contact</a>
+        </nav>
+    </header>
+    <!-- hero banner -->
+    <section class="banner">
+        <div class="slider-container">
+                <div class="slides">
+                    <img src="Images/Bundesliga-Features.jpg" alt="">
                 </div>
-            </div> -->
-
-            <div class="container">
-                <figure class="slider">
-                    <img src="./Images/EPL-Features.jpeg" alt="">
-                    <img src="./Images/Laliga-Features.jpeg" alt="">
-                    <img src="./Images/Seria A-Features.jpeg" alt="">
-                    <img src="./Images/Bundesliga-Features.jpg" alt="">
-                    <img src="./Images/Ligue-Features.jpeg" alt="">
-                </figure>
-             </div>
-
-             <button id="left"><i class="fas fa-angle-left"></i></button>
-             <button id="right"><i class="fas fa-angle-right"></i></button>
-
-
-            <!-- <section class="splide" aria-label="Splide Basic HTML Example">
-                <div class="splide__track">
-                      <ul class="splide__list">
-                          <li class="splide__slide">
-                            <img src="./Images/EPL-Features.jpeg" alt="English premier league">
-                          </li>
-                          <li class="splide__slide">
-                            <img src="./Images/Laliga-Features.jpeg" alt="Spanish laliga">
-                          </li>
-                          <li class="splide__slide">
-                            <img src="./Images/Seria A-Features.jpeg" alt="Italian seria A">
-                          </li>
-                          <li class="splide__slide">
-                            <img src="./Images/Bundesliga-Features.jpg" alt="German bundesliga">
-                          </li>
-                          <li class="splide__slide">
-                            <img src="./Images/Ligue-Features.jpeg" alt="French ligue 1">
-                          </li>
-                      </ul>
+                <div class="slides">
+                    <img src="Images/Bundesliga-Features2.jpeg" alt="">
                 </div>
-            </section> -->
-    </section>
-
-    <!-- About Section -->
-    <section id="about">
-        <h2>About Us</h2>
-        <p>Learn about our football club and our mission.</p>
-    </section>
-
-    <!-- Teams Section -->
-    <section id="teams">
-        <h2>Our Teams</h2>
-        <!-- Team information can be added here -->
-        <div class="teams-list">
-            <div>
-                <img src="./Images/Profile-Image1.jpeg" alt="">
-                <div class="team-details">
-                    <p class="name"> Dave Smart</p>
-                    <p class="role">Football analyst</p>
+                <div class="slides">
+                    <img src="Images/EPL-Features.jpeg" alt="">
                 </div>
-            </div>
+        </div>
 
-            <div>
-                <img src="./Images/Profile-Image2.jpeg" alt="">
-                <div class="team-details">
-                    <p class="name"> Emmanuel</p>
-                    <p class="role">Fixtures Reviewer</p>
-                </div>
-            </div>
-
-            <div>
-                <img src="./Images/Profile-Image3.jpeg" alt="">
-                <div class="team-details">
-                    <p class="name"> Dominiq Don</p>
-                    <p class="role">Professional Gamer</p>
-                </div>
-            </div>
-
-            <div>
-                <img src="./Images/Profile-Image4.jpeg" alt="">
-                <div class="team-details">
-                    <p class="name"> Peter Adejo</p>
-                    <p class="role">Drone Technician</p>
-                </div>
-            </div>
-
-            <div>
-                <img src="./Images/Profile-Image5.jpeg" alt="">
-                <div class="team-details">
-                    <p class="name"> Favour AY</p>
-                    <p class="role">International Agent</p>
-                </div>
-            </div>
-
-            <div>
-                <img src="./Images/Profile-Image6.jpeg" alt="">
-                <div class="team-details">
-                    <p class="name"> Johnson AGB</p>
-                    <p class="role">Free Agent</p>
-                </div>
-            </div>
+        <div class="banner-icon">
+            <a href="" id="prevBtn" class="prev"><i class="fa-solid fa-arrow-left fa-2x"></i></a>
+            <a href="" id="nextBtn" class="prev"><i class="fa-solid fa-arrow-right fa-2x"></i></a>
         </div>
     </section>
-
-    <!-- Fixtures Section -->
-    <section id="fixtures">
-        <h2>Upcoming Fixtures</h2>
-        <!-- Fixture details can be added here -->
-        <div class="Fixtures-slide">
-            <div class="fixtures-images">
-                <img src="./Images/EPL-Features2.jpeg" alt="English premier league - Fixtures">
-                <img src="./Images/Laliga-Features2.jpeg" alt="Spanish laliga - Fixtures">
-                <img src="./Images/Searia A-Features2.jpeg" alt="Italian seria A - Fixtures">
-                <img src="./Images/Bundesliga-Features2.jpeg" alt="German bundesliga - Fixtures">
-                <img src="./Images/Ligue-Features2.jpeg" alt="French ligue 1 - Fixtures">
-            </div>
-        </div>
-    </section>
-
-    <!-- Contact Section -->
-    <section id="contact">
-        <h2>Contact Us</h2>
-        <!-- Contact information and a contact form can be added here -->
-        <div class="contact-block">
-            <p class="contact-title">Address</p>
-            <p class="contact-detail">Brooklyn, NY, 11215</p>
-        </div>
-
-        <div class="contact-block">
-            <p class="contact-title">Phone Number</p>
-            <p class="contact-detail">451-125-1234</p>
-        </div>
-
-        <div class="contact-block">
-            <p class="contact-title">Email Address</p>
-            <p class="contact-detail">football.landingpage@email.com</p>
-        </div>
-
-        <div class="contact-block">
-            <p class="contact-title">Website</p>
-            <p class="contact-detail">football-landingpage.com</p>
-        </div>
-
-        <form>
-            <div>
-
-            </div>
-            <label for="form-name" class="form-title">Name</label> <br>
-            <input type="text" id="form-name" class="form-detail" name="form-name" placeholder="e.g.. Dave McCall"> <br> <br>
-            <label for="form-email" class="form-title">Email</label> <br>
-            <input type="text" id="form-email" class="form-detail" name="form-email" placeholder="e.g.. DavemcCall@gmail.com"> <br><br>
-
-            <label for="form-number" class="form-title">Phone Number</label> <br>
-            <input type="text" id="form-number" class="form-detail" name="form-number" placeholder="e.g.. +1 451-125-1234"> <br>
-
-            <p class="form-title">Will you like to get personalized newsletters?</p>
-            <input type="radio" name="form-newsletters" id="Yes" class="YesOrNo">
-            <label for="Yes" class="YesOrNo"> Yes, send them over!</label> <br>
-
-            <input type="radio" name="form-newsletters" id="No" class="YesOrNo">
-            <label for="No" class="YesOrNo"> No, there's absolutely no need for that!</label>
-
-            <p class="form-title">We will need some more details in the following hours, is that okay?</p>
-            <input type="checkbox" name="form-enquiries" id="Yes" class="YesOrNo">
-            <label for="Yes" class="YesOrNo"> Ofcourse, that is fine with me!</label> <br>
-
-            <input type="checkbox" name="form-enquiries" id="No" class="YesOrNo">
-            <label for="No" class="YesOrNo"> Absolutely Not!!</label> <br> <br>
-
-            <input type="submit" value="submit" id="submit">
-        </form>
-    </section>
-
-    <!-- JavaScript for Slider (if used) -->
-
-    <script>
-        
-
-
-        // const left = document.getElementById("left");
-        // const right = document.getElementById("right");
-        // const slider = document.querySelector(".slider");
-        // const imgs = document.querySelectorAll(".slider img");
-
-        // let index = 0;
-        // let width = imgs[index].clientWidth;
-        
-
-        // right.addEventListener("click", () => {
-        //     index++;
-
-        //     slider.style.transform = `translate(${-index * width + 10}px)`;
-
-        //     if (index === imgs.length - 1) {
-        //         right.classList.add("disable");
-        //     }else {
-        //         left.classList.remove("disable");
-        //     }
-        // });
-
-        // left.addEventListener("click", () => {
-        //     index--;
-
-        //     slider.style.transform = `translate(${-index * width + 100}px)`;
-
-        //     if (index === 0) {
-        //         left.classList.add("disable");
-        //     }else {
-        //         right.classList.remove("disable");
-        //     }
-        // });
-    </script>
-
-    <!-- <script src="https://cdn.jsdelivr.net/npm/@splidejs/splide@4.1.4/dist/js/splide.min.js"></script> -->
-    
-    <!-- <script>
-            var splide = new Splide( '.splide', {
-                type  : 'fade',
-                rewind: true,
-            } );
-
-            splide.mount();
-    </script> -->
-      
-    </body>
+    <!-- hero banner ends -->
+    <!-- footer -->
+      <script src="js/main.js"></script>
+</body>
 </html>
