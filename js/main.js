@@ -1,6 +1,10 @@
 let slideIndex  = 0
 showSlides(slideIndex)
 
+
+// fix: prev showing blank image
+
+
 const prevBtn = document.querySelector('#prevBtn')
 const nextBtn = document.querySelector('#nextBtn')
 
